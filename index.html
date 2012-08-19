@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>e-jc.de</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<meta name="author" content="Jan Christoph Ebersbach">
+
+		<!-- Le styles -->
+		<link href="css/bootstrap.css" rel="stylesheet">
+		<style>
+			body {
+				padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+			}
+		</style>
+		<link href="css/bootstrap-responsive.css" rel="stylesheet">
+
+		<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+		<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+
+		<!-- Le fav and touch icons -->
+		<link rel="shortcut icon" href="ico/favicon.ico">
+		<!-- <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png"> -->
+		<!-- <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png"> -->
+		<!-- <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png"> -->
+		<!-- <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png"> -->
+	</head>
+
+	<body>
+
+		<div class="navbar navbar-fixed-top">
+			<div class="navbar-inner">
+				<div class="container">
+					<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</a>
+					<a class="brand" href="http://www.e-jc.de/">e-jc.de</a>
+					<div class="nav-collapse">
+						<ul class="nav">
+							<li class="active"><a href="#">Home</a></li>
+							<li><a href="#projects">Projects</a></li>
+							<li><a href="#cv">Curriculum Vitae</a></li>
+							<li><a href="#contact">Contact</a></li>
+						</ul>
+					</div><!--/.nav-collapse -->
+					<ul class="nav pull-right hidden-phone">
+						<p class="navbar-text">
+						<a href="https://plus.google.com/u/0/116826104768561434851"><img src="socialmediaicons_v190/google+-16x16.png" title="JC on Google+" alt="Google+"></img></a>
+						<a href="https://www.facebook.com/jceb81"><img src="socialmediaicons_v190/facebook-16x16.png" title="JC on Facebook" alt="Facebook"></img></a>
+						<a href="http://identi.ca/jceb"><img src="socialmediaicons_v190/identica-16x16.png" title="JC on identi.ca" alt="identi.ca"></img></a>
+						<a href="http://twitter.com/jceb81"><img src="socialmediaicons_v190/twitter-16x16.png" title="JC on Twitter" alt="Twitter"></img></a>
+						<a href="http://www.linkedin.com/profile/view?id=45314984"><img src="socialmediaicons_v190/linkedin-16x16.png" title="JC on Linkedin" alt="Linkedin"></img></a>
+						<a href="https://www.xing.com/profile/JanChristoph_Ebersbach"><img src="socialmediaicons_v190/xing-16x16.png" title="JC on Xing" alt="Xing"></img></a>
+						<a href="http://github.com/jceb"><img src="socialmediaicons_v190/github-16x16.png" title="JC on github" alt="github"></img></a>
+						</p>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+
+			<div class="hero-unit">
+				<h1>Introducing Jan Christoph → <img style="border-radius: 6px;" src="http://www.gravatar.com/avatar/0f0c597e1b5ad385cac460b2038f5abe.png" alt="Jan Christoph Ebersbach" title="Jan Christoph Ebersbach"></img></h1>
+				<p>This web page is a representation of my digital life.  I'm in
+				the lucky position to be doing
+				<a href="http://www.univention.de/">professionaly</a> what I
+				also love to do privately: working with computers running FOSS
+				operating systems :-) Expect this to be the leading topic for
+				the whole page.</p>
+			</div>
+			<div class="row">
+				<div class="span12">
+					<h1><a name="projects"></a>Private Projects</h1>
+					<p>I'm more or less actively working on a number of projects
+					in my spare time. The highlights you can find below.</p>
+					<p>As you can see, I'm very active for my favourite text
+					editor,
+					<a title="vim" href="http://www.vim.org/">vim</a>. Is there
+					anything that generates more productivity than a
+					sophisticated text editor setup ;-)
+					</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="span4">
+					<h2><a href="https://github.com/jceb/dex">dex</a></h2>
+					<p>I'm totally into tiling window managers. At the moment my
+					preference is the dynamic window manager
+					<a href="http://dwm.suckless.org/">dwm</a>.
+					Most of the implementations are very basic and don't support
+					the Freedesktop specification for the <a href="http://standards.freedesktop.org/autostart-spec/autostart-spec-0.5.html">autostart of applications</a>.
+					This makes it difficult to share the same autostart
+					applications between different window managers.
+					</p>
+					<p>
+					Dex (DesktopEntry Execution) bridges the gap by providing a
+					simple command-line tool for performing an autostart.
+					</p>
+				</div>
+				<div class="span4">
+					<h2><a href="https://bitbucket.org/jceb81/dwm-patches">dwm-patches</a></h2>
+					<p>
+					<a href="http://dwm.suckless.org/">dwm</a> is a simple but
+					powerful tiling window manager. The best part is that it's
+					easy to extend.</p>
+					<p>I built a number of popular patches that are maintained
+					in this repository. Some of the ideas I borrowed from
+					<a href="http://xmonad.org/">xmonad</a> which I was using
+					for some time.</p>
+					<p>Early in 2012 I built a patch to add system
+					tray functionality to dwm. This marked my personal
+					breakthrough with tiling window managers. Without a system
+					tray I always felt a bit too old-school. Fortunately,
+					this is over :-)
+					</p>
+				</div>
+				<div class="span4">
+					<h2><a href="https://github.com/jceb/vim-editqf">vim-editqf</a></h2>
+					<p>
+					<p style="float: right; text-align: right; display: inline-block; width: 33%; margin-left: 0.5em">
+						<iframe src="http://player.vimeo.com/video/28237048" width="120px" height="91" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+						<span><a href="http://vimeo.com/28237048">Leveraging vim's quickfix functionality using editqf</a></span>
+						<!-- <span style="text-align: center; display: inline"><a href="http://vimeo.com/28237048">Leveraging vim's quickfix functionality using editqf</a></span> -->
+					</p>
+					Vim comes with a wonderful feature called
+					<a href="http://vimdoc.sourceforge.net/htmldoc/quickfix.html">quickfix</a>.
+					In a separate window compile errors are kept for fast
+					access. The only disadvantage is that the entries are
+					automatically generated and can not be changed easily. The
+					editqf plug-ins makes it really easy to changed and add your
+					own entries to the list.
+					</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="span4">
+					<h2><a href="https://github.com/jceb/vim-ipi">vim-ipi</a></h2>
+					<p>Tim Pope created a wonderful plug-in called
+					<a href="https://github.com/tpope/vim-pathogen">pathogen</a>.
+					The vim community loves it because it allows you to keep all
+					the plug-ins in separate directories below your .vim
+					directory. This makes plug-in updates really simple and
+					greatly improves the maintainability of your vim
+					configuration.</p>
+					<p>The one big thing pathogen doesn't solve is the
+					increasing startup speed the more plug-ins are installed.
+					This is where <i>ipi</i> enters the game. Instead of loading
+					all plug-ins at startup, ipi loads them on demand, either by
+					manual invocation or through transparent commands/key
+					bindings.</p>
+				</div>
+				<div class="span4">
+					<h2><a href="https://github.com/jceb/vim-orgmode">vim-orgmode</a></h2>
+					<p>Do you know Emacs' <a href="http://orgmode.org/">Org-Mode</a>?
+					In 2010, I heard first about it and decided to build a vim
+					plug-in. I know, it's crazy, because the Emacs
+					version is highly advanced and ships with a big load of
+					features, but ..</p>
+					<p>I already get work done using the vim plug-in. For sure,
+					it's the most ambitious project I started so far. It will
+					take a lot of time moving it from the very beginnings to
+					something a lot of people will like use. Help is appreciated
+					:-)
+					</p>
+				</div>
+				<div class="span4">
+					<h2><a href="https://github.com/jceb/vim-hier">vim-hier</a></h2>
+					<p>This plug-in targets vim's
+					<a href="http://vimdoc.sourceforge.net/htmldoc/quickfix.html">quickfix</a>
+					as well, like vim-editqf. <i>hier</i> stands for
+					<i>highlight errors</i> and that's all what it does!</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="span4">
+					<h1><a name="cv"></a>Curriculum Vitae</h1>
+					<p>Thank you for being interested in my curriculum vitae. You'll
+					not find my a downloadable file on this page. Please contact me
+					directly via
+					<a href="mailto:jceb@e-jc.de" title="mail"><i class="icon-envelope"></i></a>, <a href="https://www.xing.com/profile/JanChristoph_Ebersbach" title="Xing">Xing</a>
+					or <a href="http://www.linkedin.com/profile/view?id=45314984" title="Linkedin">Linkedin</a>
+					and I'll send you the information you are interested in.
+					</p>
+					<p>In case you didn't do it yet, I recommend a
+					<a href="https://encrypted.google.com/search?hl=en&q=%22jan%20christoph%20ebersbach%22" title="Google search">Google search</a>
+					for my name. Thanks to Google this will give you a good overview
+					of my online activities.</p>
+				</div>
+				<div class="span4">
+					<h2><a href="https://github.com/jceb/vimrc">vimrc</a></h2>
+					<p>My personal vim configuration optimized for productive
+					text editing. Fork it, change it, share it, let me know what
+					you think about it.</p>
+				</div>
+				<div class="span4">
+					<h1><a name="contact"></a>Contact</h1>
+					<p>
+					I prefer to be contacted via <a href="mailto:jceb@e-jc.de" title="mail"><i class="icon-envelope"></i></a>.
+					</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="offset8 span4">
+				<h6 style="text-align: right">LAST UPDATED: 2012-07-07</h6>
+				</div>
+			</div>
+		</div> <!-- /container -->
+
+		<!-- Le javascript
+		================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+		<script src="js/jquery.js"></script>
+		<script src="js/bootstrap-transition.js"></script>
+		<script src="js/bootstrap-alert.js"></script>
+		<script src="js/bootstrap-modal.js"></script>
+		<script src="js/bootstrap-dropdown.js"></script>
+		<script src="js/bootstrap-scrollspy.js"></script>
+		<script src="js/bootstrap-tab.js"></script>
+		<script src="js/bootstrap-tooltip.js"></script>
+		<script src="js/bootstrap-popover.js"></script>
+		<script src="js/bootstrap-button.js"></script>
+		<script src="js/bootstrap-collapse.js"></script>
+		<script src="js/bootstrap-carousel.js"></script>
+		<script src="js/bootstrap-typeahead.js"></script>
+	</body>
+</html>
